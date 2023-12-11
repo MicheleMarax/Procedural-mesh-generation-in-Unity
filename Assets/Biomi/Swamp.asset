@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418c4fa809155c9438920d1cf44dea35, type: 3}
+  m_Name: Swamp
+  m_EditorClassIdentifier: 
+  color: {r: 0.50980395, g: 0.54901963, b: 0.31764707, a: 0}
+  minTemperature: 0
+  maxTemperature: 0.25
+  minHeight: 0
+  maxHeight: 0.4
+  minLevelForProps: 0
+  maxLevelForProps: 0.05
+  biomeProps:
+  - propModel: {fileID: 45243623248603482, guid: e17fbf6da6d428444b3688e3d4a5540e, type: 3}
+    probability: 0
+  - propModel: {fileID: 5718296982479106425, guid: 74535b2e8cb706940bc96f858d4fae5e, type: 3}
+    probability: 0

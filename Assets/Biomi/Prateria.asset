@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418c4fa809155c9438920d1cf44dea35, type: 3}
+  m_Name: Prateria
+  m_EditorClassIdentifier: 
+  color: {r: 0.5691628, g: 0.8490566, b: 0.028034903, a: 0}
+  minTemperature: 0.35
+  maxTemperature: 0.8
+  minHeight: 0.4
+  maxHeight: 0.7
+  minLevelForProps: 0
+  maxLevelForProps: 0.01
+  biomeProps:
+  - propModel: {fileID: 1646885935188752, guid: dafad5d52cd284f4b8229a896f9a966f, type: 3}
+    probability: 0.33
+  - propModel: {fileID: 1646885935188752, guid: dafad5d52cd284f4b8229a896f9a966f, type: 3}
+    probability: 0.33
+  - propModel: {fileID: 5047666264526428685, guid: 434c6f8ee1b3fce4291d5b6ff30b250d, type: 3}
+    probability: 0.33
